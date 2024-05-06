@@ -1,0 +1,249 @@
+####################################
+alexnet
+####################################
+Creating training/validation flower data loaders
+        training_data_loader
+Loading alexnet base model and modifying classifier layer
+Training model for 1 epoch(s).
+epoch 0
+        batch_num: 30 / 103
+        batch_num: 60 / 103
+        batch_num: 90 / 103
+        batch_num: 103 / 103
+        training run time:     73.6
+        validation run time:   9.1
+        training avg loss:     2.7303
+        training avg accuracy: 0.3727
+        validation avg loss:   0.9288
+        validation accuracy:   0.7421
+run_time: 82.7
+Saving checkpoint file: ./checkpoint.pt
+Done
+Predictions for test_images/cautleya_spicata.jpg
+idx     label     prob       name
+60      '61'      0.9144     cautleya spicata
+85      '84'      0.0313     columbine
+33      '37'      0.0100     cape flower
+4       '102'     0.0088     blackberry lily
+55      '57'      0.0049     gaura
+Predictions for test_images/hard-leaved_pocket_orchid.jpg
+idx     label     prob       name
+14      '2'       1.0000     hard-leaved pocket orchid
+77      '77'      0.0000     passion flower
+37      '40'      0.0000     lenten rose
+4       '102'     0.0000     blackberry lily
+81      '80'      0.0000     anthurium
+Predictions for test_images/orange_dahlia.jpg
+idx     label     prob       name
+57      '59'      0.9825     orange dahlia
+38      '41'      0.0047     barbeton daisy
+54      '56'      0.0042     bishop of llandaff
+43      '46'      0.0027     wallflower
+84      '83'      0.0026     hibiscus
+Predictions for test_images/wild_pansy.jpg
+idx     label     prob       name
+50      '52'      0.9689     wild pansy
+13      '19'      0.0131     balloon flower
+0       '1'       0.0037     pink primrose
+53      '55'      0.0032     pelargonium
+49      '51'      0.0029     petunia
+
+####################################
+densenet121
+####################################
+Creating training/validation flower data loaders
+        training_data_loader
+Loading densenet121 base model and modifying classifier layer
+Training model for 1 epoch(s).
+epoch 0
+        batch_num: 30 / 103
+        batch_num: 60 / 103
+        batch_num: 90 / 103
+        batch_num: 103 / 103
+        training run time:     91.7
+        validation run time:   12.0
+        training avg loss:     3.0750
+        training avg accuracy: 0.3379
+        validation avg loss:   1.3324
+        validation accuracy:   0.7188
+run_time: 103.7
+Saving checkpoint file: ./checkpoint.pt
+Done
+Predictions for test_images/cautleya_spicata.jpg
+idx     label     prob       name
+60      '61'      0.2977     cautleya spicata
+55      '57'      0.0937     gaura
+57      '59'      0.0866     orange dahlia
+33      '37'      0.0714     cape flower
+94      '92'      0.0703     bee balm
+Predictions for test_images/hard-leaved_pocket_orchid.jpg
+idx     label     prob       name
+14      '2'       0.8738     hard-leaved pocket orchid
+50      '52'      0.0325     wild pansy
+93      '91'      0.0067     hippeastrum
+12      '18'      0.0065     peruvian lily
+4       '102'     0.0063     blackberry lily
+Predictions for test_images/orange_dahlia.jpg
+idx     label     prob       name
+57      '59'      0.6354     orange dahlia
+38      '41'      0.1154     barbeton daisy
+47      '5'       0.0501     english marigold
+54      '56'      0.0368     bishop of llandaff
+62      '63'      0.0227     black-eyed susan
+Predictions for test_images/wild_pansy.jpg
+idx     label     prob       name
+50      '52'      0.7753     wild pansy
+68      '69'      0.0590     windflower
+14      '2'       0.0199     hard-leaved pocket orchid
+66      '67'      0.0090     spring crocus
+64      '65'      0.0073     californian poppy
+
+####################################
+resnet18
+####################################
+Creating training/validation flower data loaders
+        training_data_loader
+Loading resnet18 base model and modifying classifier layer
+Training model for 1 epoch(s).
+epoch 0
+        batch_num: 30 / 103
+        batch_num: 60 / 103
+        batch_num: 90 / 103
+        batch_num: 103 / 103
+        training run time:     91.7
+        validation run time:   9.3
+        training avg loss:     3.1617
+        training avg accuracy: 0.3208
+        validation avg loss:   1.4365
+        validation accuracy:   0.6944
+run_time: 101.0
+Saving checkpoint file: ./checkpoint.pt
+Done
+Predictions for test_images/cautleya_spicata.jpg
+idx     label     prob       name
+60      '61'      0.2316     cautleya spicata
+55      '57'      0.1468     gaura
+80      '8'       0.1197     bird of paradise
+43      '46'      0.0695     wallflower
+101     '99'      0.0460     bromelia
+Predictions for test_images/hard-leaved_pocket_orchid.jpg
+idx     label     prob       name
+14      '2'       0.5324     hard-leaved pocket orchid
+50      '52'      0.0402     wild pansy
+68      '69'      0.0271     windflower
+85      '84'      0.0216     columbine
+37      '40'      0.0186     lenten rose
+Predictions for test_images/orange_dahlia.jpg
+idx     label     prob       name
+57      '59'      0.3842     orange dahlia
+71      '71'      0.0835     gazania
+47      '5'       0.0785     english marigold
+38      '41'      0.0601     barbeton daisy
+54      '56'      0.0477     bishop of llandaff
+Predictions for test_images/wild_pansy.jpg
+idx     label     prob       name
+50      '52'      0.8781     wild pansy
+62      '63'      0.0089     black-eyed susan
+68      '69'      0.0086     windflower
+85      '84'      0.0073     columbine
+13      '19'      0.0064     balloon flower
+
+####################################
+vgg13
+####################################
+Creating training/validation flower data loaders
+        training_data_loader
+Loading vgg13 base model and modifying classifier layer
+Training model for 1 epoch(s).
+epoch 0
+        batch_num: 30 / 103
+        batch_num: 60 / 103
+        batch_num: 90 / 103
+        batch_num: 103 / 103
+        training run time:     102.5
+        validation run time:   13.6
+        training avg loss:     2.4983
+        training avg accuracy: 0.4336
+        validation avg loss:   0.7918
+        validation accuracy:   0.7958
+run_time: 116.0
+Saving checkpoint file: ./checkpoint.pt
+Done
+Predictions for test_images/cautleya_spicata.jpg
+idx     label     prob       name
+60      '61'      0.8537     cautleya spicata
+101     '99'      0.0308     bromelia
+16      '21'      0.0282     fire lily
+9       '15'      0.0224     yellow iris
+73      '73'      0.0106     water lily
+Predictions for test_images/hard-leaved_pocket_orchid.jpg
+idx     label     prob       name
+14      '2'       1.0000     hard-leaved pocket orchid
+12      '18'      0.0000     peruvian lily
+37      '40'      0.0000     lenten rose
+93      '91'      0.0000     hippeastrum
+11      '17'      0.0000     purple coneflower
+Predictions for test_images/orange_dahlia.jpg
+idx     label     prob       name
+57      '59'      0.9827     orange dahlia
+30      '34'      0.0047     mexican aster
+39      '42'      0.0019     daffodil
+38      '41'      0.0019     barbeton daisy
+54      '56'      0.0015     bishop of llandaff
+Predictions for test_images/wild_pansy.jpg
+idx     label     prob       name
+50      '52'      0.9699     wild pansy
+76      '76'      0.0044     morning glory
+54      '56'      0.0032     bishop of llandaff
+14      '2'       0.0029     hard-leaved pocket orchid
+30      '34'      0.0024     mexican aster
+
+####################################
+vgg16
+####################################
+Creating training/validation flower data loaders
+        training_data_loader
+Loading vgg16 base model and modifying classifier layer
+Training model for 1 epoch(s).
+epoch 0
+        batch_num: 30 / 103
+        batch_num: 60 / 103
+        batch_num: 90 / 103
+        batch_num: 103 / 103
+        training run time:     140.3
+        validation run time:   18.3
+        training avg loss:     2.2788
+        training avg accuracy: 0.4657
+        validation avg loss:   0.6483
+        validation accuracy:   0.8142
+run_time: 158.6
+Saving checkpoint file: ./checkpoint.pt
+Done
+Predictions for test_images/cautleya_spicata.jpg
+idx     label     prob       name
+60      '61'      0.9620     cautleya spicata
+77      '77'      0.0126     passion flower
+55      '57'      0.0043     gaura
+34      '38'      0.0038     great masterwort
+85      '84'      0.0034     columbine
+Predictions for test_images/hard-leaved_pocket_orchid.jpg
+idx     label     prob       name
+14      '2'       0.9997     hard-leaved pocket orchid
+12      '18'      0.0002     peruvian lily
+93      '91'      0.0000     hippeastrum
+77      '77'      0.0000     passion flower
+13      '19'      0.0000     balloon flower
+Predictions for test_images/orange_dahlia.jpg
+idx     label     prob       name
+57      '59'      0.9921     orange dahlia
+47      '5'       0.0029     english marigold
+30      '34'      0.0023     mexican aster
+64      '65'      0.0009     californian poppy
+71      '71'      0.0007     gazania
+Predictions for test_images/wild_pansy.jpg
+idx     label     prob       name
+50      '52'      0.9975     wild pansy
+12      '18'      0.0008     peruvian lily
+13      '19'      0.0005     balloon flower
+49      '51'      0.0002     petunia
+91      '9'       0.0002     monkshood

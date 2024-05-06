@@ -184,13 +184,13 @@ idx     label     prob       name
 
 
 ### `run_all.sh`
-Run batch training and predictions (see [run_all.sh](aipnd-projects/run_all.sh)).
+Run batch training and predictions (see [run_all.sh](aipnd-project/run_all.sh)).
 
 ```
 ./run_all.sh > output.txt
 ```
 
-See [output-nhidden_512_nepochs_1.txt](aipnd-project/output-nhidden_512_nepochs_1.txt) and [output-nhidden_512_nepochs_5.txt](aipnd-project/output-nhidden_512_nepochs_5.txt) for example output.
+See [output-nhidden_512_nepochs_1.txt](output/output-nhidden_512_nepochs_1.txt) and [output-nhidden_512_nepochs_5.txt](output/output-nhidden_512_nepochs_5.txt) for example output.
 
 # Results
 
